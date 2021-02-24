@@ -11,19 +11,19 @@ ESP8266WiFiMulti WiFiMulti;
 WebSocketsClient webSocket;
 WiFiClient client;
 
-#define MyApiKey "32cf3606-1c12-4a12-a491-a04c16f3a63d" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
-#define MySSID "GTS Wi-Fi" // TODO: Change to your Wifi network SSID
-#define MyWifiPassword "Gowrish670" // TODO: Change to your Wifi network password
+#define MyApiKey "-------------------------" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define MySSID "--------" // TODO: Change to your Wifi network SSID
+#define MyWifiPassword "-----------" // TODO: Change to your Wifi network password
 
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes 
 
 uint64_t heartbeatTimestamp = 0;
 bool isConnected = false;
 
-String device_ID_1 = "60293ce22e92536061e85dc7";
-String device_ID_2 = "60293d112e92536061e85dcf";
-String device_ID_3 = "60293d3d2e92536061e85dd7";
-String device_ID_4 = "60293d832e92536061e85def";
+String device_ID_1 = "------------------------";
+String device_ID_2 = "------------------------";
+String device_ID_3 = "------------------------";
+String device_ID_4 = "------------------------";
 
 // define the GPIO connected with Relays and switches
 
