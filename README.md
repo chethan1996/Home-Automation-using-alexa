@@ -11,3 +11,7 @@ Step 6: Copy each switch API key and add it to corresponsing device ID line from
 Step 7: Plug your ESP8266 and check in the Arduino IDE the board you selected is NodeMCU 1.0 and port is set <br>
 Step 8: Upload it to Your ESP8266 <br>
 Great, you did it 👏
+<br>
+
+<b>Circuit Diagram:</b><br>
+<img src='https://raw.githubusercontent.com/chethan1996/Home-Automation-using-alexa/main/circuit.png'>
